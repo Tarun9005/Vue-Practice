@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	<div id="root">
+		<li v-for="task in tasks" v-if='task.completed'>{{description}}</li>
+
+		
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script type="text/javascript">
+		var app=new Vue({
+
+			el:'#root',
+			data:{
+				is-Loading: false
+
+			},
+			methods:{
+				toggleClass(){
+					this.is-Loading=true;
+					
+				}
+			}
+		});
+
+
+	</script>
+
+
+
+
+</body>
+</html>

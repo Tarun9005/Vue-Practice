@@ -13,10 +13,10 @@ Vue.component('coupon',{
 });
 new Vue({
 	el: '#root',
-	// methods:{
-	// 	oncouponapplied(){
-	// 		alert('It was applied');
-	// 		console.log("applied");
-	// 	}
-	// }
+	 methods:{
+	 	oncouponapplied(){
+	 		alert('It was applied');
+	 		console.log("applied");
+	 	}
+	 }
 });
